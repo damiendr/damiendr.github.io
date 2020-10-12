@@ -176,7 +176,12 @@ section {
     width: 250px;
 }
 
-.box h4 img {
+.logo {
+    height:80px;
+    text-align: center;
+}
+
+.logo img {
     height:60px;
 }
 
@@ -188,8 +193,12 @@ ul {
     border-left: 2.5px solid #666;
     padding: 6px;
     padding-left: 10px;
-    font-style: italic;
+    /*font-style: italic;*/
     color: #444;
+}
+
+li {
+    margin-bottom:5px;
 }
 
 .gray {

@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keyword" content="Damien Drix, portfolio, developer, python, julia, numpy, scipy, pytorch, tensorflow, cython, gpu, cuda, ispc, opencl, matplotlib, data science, data analysis, data visualisation, machine learning, contract work, remote work">
-    <meta name="description" content="Portfolio of Damien Drix, Data Engineer">
+    <meta name="keyword" content="Damien Drix, portfolio, developer, python, julia, numpy, scipy, pytorch, tensorflow, cython, gpu, cuda, ispc, opencl, matplotlib, golang, code generation, metaprogramming, data science, data analysis, data visualisation, machine learning, contract work, remote work">
+    <meta name="description" content="Website of Damien Drix, Data Scientist">
     <meta name="author" content="Damien Drix">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap">
 
-    <title>Damien Drix &mdash; Data Engineer</title>
+    <title>Damien Drix &mdash; Data Science & Software Engineering</title>
 </head>
 <body>
 <section class="dark">
@@ -23,8 +23,8 @@
         <div class="content about invert">
             <h1>I'm Damien Drix</h1>
             <h3>I do machine learning and data processing.</h3>
-            <p>I have ten years of experience as a research scientist. I'm available for all sorts of projects where you need data transformed, analysed or visualised.</p>
-            <p>I am based in London, UK and also work remotely.</p>
+            <p>I have ten years of experience as a research scientist. I'm available for all sorts of data-related projects.</p>
+            <p>I am based in London, UK and work remotely.</p>
             <div class="contacts hgap">
                 <a href="mailto:damien.drix@gmail.com"><img src="images/email.svg" alt="email" title="Send me an email"/></a>
                 <a href="https://www.linkedin.com/in/damien-drix-61008461/"><img src="images/linkedin.svg" alt="linkedin" title="My LinkedIn"/></a>
@@ -39,38 +39,44 @@
     <h2><span class="gray">&mdash;</span> Services <span class="gray">&mdash;</span></h2>
     <div class="row main">
         <div class="content service box">
-            <h4>Data Analysis</h4>
-            <p>Helping you understand your data and answer specific questions you may have.</p>
+            <h4>Data Analysis and Visualisation</h4>
+            <p>Using statistical methods to analyse your data and help you visualise its structure.</p>
         </div>
         <div class="content service box">
             <h4>Machine Learning</h4>
-            <p>Using supervised and unsupervised methods to train models or discover features in your datasets.</p>
+            <p>Training neural networks for classification, prediction and feature discovery, with a special interest in <a href="https://www.sciencedirect.com/science/article/pii/S0893608020302203">unsupervised and online learning</a>.</p>
         </div>
         <div class="content service box">
-            <h4>Data Visualisation</h4>
-            <p>Informative and beautiful graphs for reports or for live monitoring of your systems.</p>
+            <h4>Simulation and <br/> Optimisation</h4>
+            <p>I can build numerical models to simulate your processes and find optimal parameters.</p>
         </div>
         <div class="content service box">
             <h4>High-Performance Computing</h4>
-            <p>I can take existing toolchains and re-implement them to run faster with efficient code and parallel computing.</p>
+            <p>I can improve existing toolchains and re-implement them to run faster with efficient code and parallel computing.</p>
         </div>
         <div class="content service box">
             <h4>Data Acquisition & Conversion</h4>
-            <p>Taking data from sensors, files and other sources and converting it to a form your systems can use.</p>
+            <p>Taking data from sensors, files and other sources and converting it to a format your systems can use.</p>
         </div>
     </div>
 </section>
 
 <section class="medium">
-    <h2><span class="gray">&mdash;</span> My tools <span class="gray">&mdash;</span></h2>
+    <h2><span class="gray">&mdash;</span> Tools <span class="gray">&mdash;</span></h2>
     <div class="row main">
         <div class="content tool box">
-            <h4><img src="images/python-logo-generic.svg" alt="Python" style="padding-top: 14px"/></h4>
-            <p>I have 10+ years of experience writing complex software in Python, from numerical computing to asynchronous backend services.</p>
+            <div class="logo"><img src="images/python-logo-generic.svg" alt="Python" style="padding-top: 14px"/></div>
+            <p>I have 10+ years of experience writing complex software in Python, such as:</p>
+            <ul>
+            <li>Numerical simulations</li>
+            <li>Robot control systems</li>
+            <li>Automatic code generation</li>
+            <li>Event-driven systems using async/io</li>
+            </ul>
         </div>
         <div class="content tool box">
-            <h4><img src="images/numpy.svg" alt="NumPy" style="padding-top: 7px"/></h4>
-            <p>Full numerical Python stack:</p>
+            <div class="logo"><img src="images/numpy.svg" alt="NumPy" style="padding-top: 7px"/></div>
+            <p>Full numerical Python stack including:</p>
             <ul>
             <li>NumPy / SciPy</li>
             <li>Scikit-learn</li>
@@ -78,27 +84,36 @@
             <li>TensorFlow</li>
             <li>Matplotlib</li>
             <li>Cython</li>
-            <li>etc.</li>
             </ul>
         </div>
         <div class="content tool box">
-            <h4><img src="images/julia-logo-color.svg" alt="Julia"/></h4>
-            <p>I have been an early adopter of Julia for its speed, clarity and expressiveness &mdash; the tool of choice for long computations.</p>
+            <div class="logo"><img src="images/julia-logo-color.svg" alt="Julia"/></div>
+            <p>I have been an early adopter of Julia and find it ideal for intensive tasks:</p>
+            <ul>
+            <li>Batch conversion of very large files</li>
+            <li>Image and sound processing</li>
+            <li>Parameter optimisation</li>
+            </ul>
         </div>
         <div class="content tool box">
             <h4>GPU / Embedded</h4>
-            <p>I write C code for parallel computing with CUDA, OpenCL or ISPC.</p>
-            <p>I also do embedded development in C / C++ for microcontrollers (Arduino, PlatformIO).</p>
+            <p>I write CUDA, OpenCL or ISPC code for parallel computing on CPUs and GPUs.</p>
+            <p>I also write C/C++ firmware for microcontrollers (Arduino):</p>
+            <ul>
+            <li>I2C / SPI interfaces</li>
+            <li>Signal processing</li>
+            </ul>
         </div>
         <div class="content tool box">
             <h4>& more</h4>
             <ul>
-            <li>Databases</li>
+            <li>Databases (SQL / NoSQL)</li>
             <li>XML / XSLT</li>
             <li>Java / Scala</li>
             <li>Matlab</li>
+            <li>Golang</li>
             </ul>
-            <p>I learn fast and can work with your existing systems and technologies.</p>
+            <p>I learn fast and will adapt to your existing technologies.</p>
         </div>
     </div>
 </section>
